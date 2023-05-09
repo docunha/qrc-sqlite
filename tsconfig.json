@@ -5,6 +5,7 @@
     "lib": [
       "es5", "es6", "dom", "dom.iterable"
     ],
-    "strictNullChecks":false
+    "strictNullChecks":false,
+    "experimentalDecorators": true
   }
 }
