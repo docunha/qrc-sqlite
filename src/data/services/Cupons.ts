@@ -20,8 +20,8 @@ async function fetchCuponsOneWeek(){
 
   let now = new Date().valueOf();
   let epoch = now / 1000;
-  let date = 604800*4;
-  // let date = 604800*230;
+  // let date = 604800*4;
+  let date = 604800*230;
   let oneWeekDate = epoch - date;
 
   // https://orkhan.gitbook.io/typeorm/docs/find-options

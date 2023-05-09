@@ -9,7 +9,7 @@ import { useDatabaseInitialize } from './src/data/hooks/use-database-initialize'
 import { Scanner } from './src/components/Scan';
 import { Scanner2 } from './src/components/Scan2';
 import { UrlsList2 } from './src/components/UrlsList2';
-import {CuponsList2} from './src/components/CuponsList2';
+import { ShowPathLoadDB } from './src/components/ShowPathLoadDB';
 
 export default function App() {
   const { ready } = useDatabaseInitialize();
@@ -22,7 +22,7 @@ export default function App() {
     );
   }
 
-  // return <CuponsList2 />;
+  // return <ShowPathLoadDB />;
   return <CuponsList />;
   // return <UrlsList />;
   return <UrlsList2 />;
